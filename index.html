@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio of Cabrine</title>
+</head>
+<body>
+    <!--NAV BAR-->
+    <Nav>
+        <div class="left">
+            <a href="/">Angida Cabrine</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com/Angida-Cabrine" target="_blank" 
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://www.linkedin.com/in/angida-cabrine-068330262" target="_blank" 
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-square-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:cabrinenangida001gmail.com" target="_blank" 
+                rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </Nav>
+
+    <main>
+        <!--Sevtion 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hello there, I am Cabrine 👋</h2>
+                <p>I design and develop software solutions that are both functional and intuitive. <br>
+                    I am driven by problem-solving, creativity, and a commitment to continuous learning.
+                </p>
+
+                <div class="links">
+                    <a href="#Skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+        
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="Cabrine Assets/Cabrine-pic.png" alt="Cabrine-headshot">
+            </div>
+        </section>
+
+        <!--Sevtion 2: Skils-->
+        <section id="Skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Excepturi in quisquam officia ex vitae nesciunt, facere <br>
+                nobis laudantium esse veritatis illo numquam, ad eaque eos, 
+                similique adipisci amet provident dolor!
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="Cabrine Assets/Cabrine-mark.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="Cabrine Assets/Cabrine-mark.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="Cabrine Assets/Cabrine-mark.png" alt="javascript logo">
+                    <span>JAVASCRIPT</span>
+                </div>
+
+                <div class="cell">
+                    <img src="Cabrine Assets/Cabrine-mark.png" alt="nodejs logo">
+                    <span>NODE JS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="Cabrine Assets/Cabrine-mark.png" alt="reactjs logo">
+                    <span>REACT JS</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Sevtion 3: Contact-->
+        <section id="Contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem accusamus recusandae ut, provident distinctio 
+                    molestias veritatis expedita ipsa blanditiis iusto ducimus dignissimos 
+                    eum iste corrupti magnam animi fugiat quae officiis!
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="email@gmail.com">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" ></textarea>
+
+                    <button type="submit">Send a message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="copyright">
+        <p>&copy;<span id="year"></span><span class="company">The Kabrin Corporation.</span> All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
