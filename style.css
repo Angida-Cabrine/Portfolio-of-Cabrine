@@ -94,6 +94,15 @@ nav .right a span{
     width: 350px;
     border-radius: 50%;
 }
+.btn-download{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-size: 15px;
+    font-family: "Roboto";
+}
 
 /*Section 2: Skills*/
 .skills-section{
